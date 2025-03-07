@@ -1,0 +1,44 @@
+/* code.withchiku */
+.card{
+   color: rgb(21, 21, 20);
+   border-style: solid;
+   border-color: brown;
+   border-radius: 10px;
+ 
+   text-align: center;
+  background-image: url(download.jpeg);
+  /* background-position: 100%; */
+  /* background-size: cover; */
+  background-position: center;
+  display: flexbox;
+  width: 250px;
+  padding: 20px;
+}
+
+img{
+    border-radius: 100%;
+    width: 100px;
+}
+button{
+    color: rgb(252, 250, 248);
+    background-color: rgb(29, 164, 226);
+    border-radius: 5px;
+    text-size-adjust: 89px;
+    text-align: center;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+body {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    height: 100vh;  /* Full height of viewport */
+    margin: 0;
+    background-color: #f4f4f4;
+}
+h2{
+    color: rgb(252, 110, 8);
+    text-shadow: steelblue;
+   
+}
